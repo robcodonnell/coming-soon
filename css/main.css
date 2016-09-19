@@ -78,7 +78,7 @@ h2 {
 }
 
 footer {
-  background-color: #ccc;
+  background-color: #ececec;
   text-align: center;
   padding: 2em 0;
 }
@@ -138,6 +138,10 @@ a {
     width: 300px;
     right: -100px;
   }
+
+  .social {
+    margin: 0 25px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -162,5 +166,9 @@ a {
 
   .bio p {
     margin-right: 3em;
+  }
+
+  .social {
+    margin: 0 40px;
   }
 }
